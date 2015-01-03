@@ -8,7 +8,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Accept payments using Amazon Flexible Payments Service (FPS).
+Accept payments using Amazon Flexible Payments Service (FPS)
 
 == Description ==
 
@@ -28,7 +28,7 @@ This plugin adds the following shortcode to your site:
 [amazonfps]
 
 It supports the following attributes in the shortcode -
-
+`
     name:
     (string) (required) Name of the product
     Possible Values: 'Awesome Script', 'My Ebook', 'Wooden Table' etc.
@@ -50,11 +50,14 @@ It supports the following attributes in the shortcode -
     
     url:
     (URL) (optional) URL of the downloadable file.
-    Possible Values: http://example.com/my-downloads/product.zip
 
     button_text:
     (string) (optional) Label of the payment button
     Possible Values: 'Buy Now', 'Pay Now' etc
+`
+Shortcode Example:    
+    
+`[amazonfps name="Cool Script" price="50" url="http://example.com/downloads/my-script.zip" button_text="Buy Now"]`
 
 For detailed documentation visit the [Amazon FPS plugin](https://wp-ecommerce.net/wordpress-amazon-fps-plugin) page
 
