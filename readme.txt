@@ -25,7 +25,7 @@ This plugin provides you a shortcode to generate a customizable buy button that 
 
 This plugin adds the following shortcode to your site:
 
-[amazonfps]
+`[amazonfps]`
 
 It supports the following attributes in the shortcode -
 `
@@ -55,8 +55,8 @@ It supports the following attributes in the shortcode -
     (string) (optional) Label of the payment button
     Possible Values: 'Buy Now', 'Pay Now' etc
 `
-Shortcode Example:    
-    
+Shortcode Example:
+
 `[amazonfps name="Cool Script" price="50" url="http://example.com/downloads/my-script.zip" button_text="Buy Now"]`
 
 For detailed documentation visit the [Amazon FPS plugin](https://wp-ecommerce.net/wordpress-amazon-fps-plugin) page
